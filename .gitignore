@@ -1,0 +1,91 @@
+## Archivos de Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Archivos de compilación
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+## Archivos de publicación
+publish/
+out/
+artifacts/
+
+## Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+project.lock.json
+project.fragment.lock.json
+*.nuget.props
+*.nuget.targets
+
+## Archivos de depuración
+*.pdb
+*.mdb
+*.opendb
+
+## Archivos de testing
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+## Configuración local
+*.localhistory/
+*.cache/
+*.log
+*.sdf
+*.dbmdl
+*.vssscc
+*.vssscc
+*.vspscc
+*.scc
+*.orig
+
+## Archivos de Rider (JetBrains)
+.idea/
+*.sln.iml
+
+## Archivos de Azure
+*.azurePubxml
+*.publishsettings
+*.Publish.xml
+Properties/PublishProfiles/
+
+## Archivos de IIS Express
+.vers
+iisexpress/
+
+## Archivos de configuraciones personales
+*.env
+secrets.json
+
+## Carpetas específicas de MAUI o Xamarin (si aplica)
+*.apk
+*.apks
+*.aab
+*.app
+*.xcarchive
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj
+
+## Archivos de log y otros
+*.log
+*.tlog
+*.bak
+*.tmp
+*.tmp_proj
+
+## Archivos de lock
+*.lock.json
+*.lock
