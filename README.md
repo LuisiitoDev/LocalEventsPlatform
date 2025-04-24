@@ -58,11 +58,18 @@ Incluyen los principales flujos funcionales:
 - Ciudadano: gestionar perfil, ver historial
 - Funcionario: publicar actividades, cancelar eventos
 
+![WhatsApp Image 2025-04-24 at 1 10 59 PM](https://github.com/user-attachments/assets/441fed1b-5ebd-40d7-a395-ab0c1f5ad0f8)
+
+
 ### Diagramas de Secuencia UML
 Representan los flujos clave:
 - Registro de usuario (autenticación con Microsoft Entra)
 - Consulta de eventos geolocalizados
 - Inscripción a evento (con pago y notificación)
+
+![WhatsApp Image 2025-04-24 at 1 11 05 PM](https://github.com/user-attachments/assets/39dadd61-4fdc-4086-a910-51c6e89f69f1)
+
+
 
 ---
 
