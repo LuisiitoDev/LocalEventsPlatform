@@ -9,6 +9,8 @@ Este repositorio contiene la soluci√≥n desarrollada para la plataforma de gesti√
 ### Diagrama de Contexto (C4 Nivel 1)
 Representa las interacciones entre los actores principales (ciudadano, turista, funcionario) y el sistema. Muestra las integraciones externas (Microsoft Entra, SendGrid, Stripe, Google Maps).
 
+![C4 L1](https://github.com/user-attachments/assets/f5b62603-2661-4fc5-82d9-8f3587a3cf0d)
+
 ### Diagrama de Contenedores (C4 Nivel 2)
 Visualiza la arquitectura modular basada en microservicios: User Service, Reservation Service, Activity Service, Attraction Service, Checkout, Payment, Notification, Application Gateway y Message Broker.
 
