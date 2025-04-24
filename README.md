@@ -24,6 +24,12 @@ Desglosa la lógica interna de los microservicios principales:
 - Activity Service: actividades comunitarias
 - Attraction Service: lugares turísticos y culturales
 
+User Service
+
+![userService](https://github.com/user-attachments/assets/38254570-cbab-4cb6-a00b-668aa7792ce0)
+
+![usermicroservice](https://github.com/user-attachments/assets/176b81b2-3d21-44d0-8acc-f078f2b0f41e)
+
 ### Diagramas de Casos de Uso UML
 Incluyen los principales flujos funcionales:
 - Turista: consultar atracciones, reservar eventos
