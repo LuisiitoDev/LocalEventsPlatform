@@ -14,6 +14,9 @@ Representa las interacciones entre los actores principales (ciudadano, turista, 
 ### Diagrama de Contenedores (C4 Nivel 2)
 Visualiza la arquitectura modular basada en microservicios: User Service, Reservation Service, Activity Service, Attraction Service, Checkout, Payment, Notification, Application Gateway y Message Broker.
 
+![C4 L2](https://github.com/user-attachments/assets/fcfb80ac-326f-46f7-ba54-95353525f925)
+
+
 ### Diagramas de Componentes (C4 Nivel 3)
 Desglosa la lógica interna de los microservicios principales:
 - User Service: perfil, preferencias, historial
