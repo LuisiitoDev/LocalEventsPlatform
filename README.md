@@ -30,6 +30,28 @@ User Service
 
 ![usermicroservice](https://github.com/user-attachments/assets/176b81b2-3d21-44d0-8acc-f078f2b0f41e)
 
+Reservation Service
+
+![image](https://github.com/user-attachments/assets/41c58886-a710-4009-9fb7-66779f65b9bc)
+
+![image](https://github.com/user-attachments/assets/8b9c3f45-7c9e-43a9-9924-043d48986f2f)
+
+Attraction Service
+
+![image](https://github.com/user-attachments/assets/77fee551-0ad7-4107-85c0-556fd42ed66d)
+
+![image](https://github.com/user-attachments/assets/d57734d6-e718-4015-9be6-fcdfb9d5d225)
+
+Activity Service
+
+![image](https://github.com/user-attachments/assets/3d817ed3-f054-431a-80c4-2bfef6139cae)
+
+![image](https://github.com/user-attachments/assets/ee4e19fb-51f5-45a8-a741-544c4dca5f65)
+
+
+
+
+
 ### Diagramas de Casos de Uso UML
 Incluyen los principales flujos funcionales:
 - Turista: consultar atracciones, reservar eventos
