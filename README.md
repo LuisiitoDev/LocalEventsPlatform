@@ -1,6 +1,6 @@
 # Plataforma Integral de Gestión de Eventos y Actividades Locales
 
-Este repositorio contiene la solución desarrollada para la plataforma de gestión de eventos y actividades orientada a una municipalidad turística. El sistema permite a ciudadanos, turistas y funcionarios gestionar y participar en eventos y actividades culturales, deportivas y recreativas.
+Este repositorio contiene la solución desarrollada para la plataforma de gestión de eventos y actividades orientada a una municipalidad turística. El sistema permite a turistas y funcionarios gestionar y participar en eventos y actividades culturales, deportivas y recreativas.
 
 ---
 
