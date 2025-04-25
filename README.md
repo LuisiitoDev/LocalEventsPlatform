@@ -63,7 +63,7 @@ Incluyen los principales flujos funcionales:
 
 ### Diagramas de Secuencia UML
 Representan los flujos clave:
-- Registro de usuario (autenticación con Microsoft Entra)
+- Autenticación con Microsoft Entra
 - Consulta de eventos geolocalizados
 - Inscripción a evento (con pago y notificación)
 
