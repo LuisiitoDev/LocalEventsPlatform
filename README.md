@@ -55,7 +55,6 @@ Activity Service
 ### Diagramas de Casos de Uso UML
 Incluyen los principales flujos funcionales:
 - Turista: consultar atracciones, reservar eventos
-- Ciudadano: gestionar perfil, ver historial
 - Funcionario: publicar actividades, cancelar eventos
 
 ![WhatsApp Image 2025-04-24 at 1 10 59 PM](https://github.com/user-attachments/assets/441fed1b-5ebd-40d7-a395-ab0c1f5ad0f8)
@@ -64,10 +63,11 @@ Incluyen los principales flujos funcionales:
 ### Diagramas de Secuencia UML
 Representan los flujos clave:
 - Autenticación con Microsoft Entra
-- Consulta de eventos geolocalizados
-- Inscripción a evento (con pago y notificación)
+- Consulta de eventos categorizados por atraciones
+- Reservacion de eventos o actividades (con pago y notificación)
 
-![WhatsApp Image 2025-04-24 at 1 11 05 PM](https://github.com/user-attachments/assets/39dadd61-4fdc-4086-a910-51c6e89f69f1)
+  ![flow](https://github.com/user-attachments/assets/e6a0c1b3-e0a2-407c-883a-d34def1feb7d)
+
 
 
 
