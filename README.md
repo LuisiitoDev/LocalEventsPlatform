@@ -78,11 +78,11 @@ Representan los flujos clave:
 ### Backend
 - **Lenguaje**: C#
 - **Framework**: .NET 8 Web API
-- **Justificación**:Soporte nativo con microservicios y orquestador de servicios Aspire.
+- **Justificación**:Soporte nativo con microservicios y orquestador de microservicios con .NET Aspire.
 
 ### Frontend Web
 - **Framework**: React
-- **Justificación**: Componentes reutilizables, generacion de SPA.
+- **Justificación**: Componentes reutilizables, facilidad de SEO.
 
 ### Base de Datos
 - **Tipo**: Relacional (SQL Server)
@@ -90,7 +90,7 @@ Representan los flujos clave:
 
 ### Colas de Mensajes
 - **Tecnología**: RabbitMQ
-- **Justificación**: Procesamiento de eventos como notificaciones y pagos.
+- **Justificación**: Procesamiento de eventos como notificaciones.
 
 ### Seguridad
 - **Autenticación**: Microsoft Entra (Azure AD B2C)
