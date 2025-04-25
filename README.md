@@ -78,24 +78,24 @@ Representan los flujos clave:
 ### Backend
 - **Lenguaje**: C#
 - **Framework**: .NET 8 Web API
-- **Justificación**: Alto rendimiento, soporte a microservicios, integración con Azure.
+- **Justificación**:Soporte nativo con microservicios y orquestador de servicios Aspire.
 
 ### Frontend Web
 - **Framework**: React
-- **Justificación**: Componentes reutilizables, alto rendimiento en SPA, compatible con Azure Static Web Apps.
+- **Justificación**: Componentes reutilizables, generacion de SPA.
 
 ### Base de Datos
 - **Tipo**: Relacional (SQL Server)
-- **Justificación**: Integridad transaccional, soporte nativo en Azure, consultas geoespaciales.
+- **Justificación**: Datos estructurados.
 
 ### Colas de Mensajes
 - **Tecnología**: RabbitMQ
-- **Justificación**: Desacoplamiento, resiliencia, procesamiento de eventos como notificaciones y pagos.
+- **Justificación**: Procesamiento de eventos como notificaciones y pagos.
 
 ### Seguridad
 - **Autenticación**: Microsoft Entra (Azure AD B2C)
 - **Autorización**: Roles y claims en JWT
-- **Protección de datos**: HTTPS, CORS, rate limiting y secrets en KeyVault
+- **Protección de datos**: HTTPS, CORS,
 
 ### Patrones de Diseño (Backend)
 1. **Repository Pattern**: Abstrae el acceso a datos.
