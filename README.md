@@ -94,7 +94,7 @@ Representan los flujos clave:
 
 ### Seguridad
 - **Autenticación**: Microsoft Entra (Azure AD B2C)
-- **Autorización**: Roles y claims en JWT
+- **Autorización**: Claims en JWT
 - **Protección de datos**: HTTPS, CORS,
 
 ### Patrones de Diseño (Backend)
@@ -130,6 +130,7 @@ Representan los flujos clave:
 - Inscripción y pagos
 - Notificaciones push
 - Gestionar perfil del usuario
+- Autenticación con MS Entra
 
 ### Tecnología
 - **Plataforma**: .NET MAUI
@@ -141,12 +142,4 @@ Representan los flujos clave:
 
 ---
 
-## 📄 Documentación
-
-- Todo el contenido está documentado en Markdown
-- Incluye diagramas C4, UML, decisiones tecnológicas y flujos
-- Compatible con presentaciones técnicas y evaluaciones académicas
-
----
-
-© Proyecto académico - Arquitectura de Software - 2025
+© Proyecto Final - Arquitectura de Software Moderno - 2025
