@@ -110,10 +110,10 @@ Representan los flujos clave:
 - **Justificación**:
   - Escalabilidad horizontal por microservicio
   - Bajo acoplamiento y alta cohesión
-  - Integraciones externas desacopladas (Stripe, SendGrid, Maps)
+  - Integraciones externas desacopladas (Stripe, SendGrid)
 
 ### Ventajas
-- Escalable, mantenible, ideal para altos picos turísticos
+- Escalable, mantenible, ideal para altos picos turístico
 - Facilidad de integración y despliegue continuo
 - Separación de responsabilidades clara
 
@@ -139,6 +139,13 @@ Representan los flujos clave:
   - Buen rendimiento
   - Acceso nativo a funcionalidades del dispositivo
   - Mismo stack que el Backend
+
+---
+
+### Recursos
+
+https://app.icepanel.io/landscapes/1YAy4ElBkoOsEIIvp2ni/versions/latest/diagrams/editor?diagram=5c4th1b67ph&model=BldNqIkNHa&overlay_tab=tags&x1=-261.9&y1=48.5&x2=1649.2&y2=989.1
+
 
 ---
 
