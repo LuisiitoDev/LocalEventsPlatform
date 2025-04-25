@@ -97,10 +97,43 @@ Representan los flujos clave:
 - **Autorización**: Claims en JWT
 - **Protección de datos**: HTTPS, CORS,
 
-### Patrones de Diseño (Backend)
-1. **Repository Pattern**: Abstrae el acceso a datos.
-2. **Service Layer**: Encapsula lógica de negocio.
-3. **Event-driven Pattern**: Comunicación desacoplada mediante eventos (RabbitMQ).
+### 🧩 Patrones de Diseño (Backend)
+
+En el backend de la plataforma, se utilizaron tres patrones fundamentales que favorecen la separación de responsabilidades, la mantenibilidad del código y la escalabilidad del sistema:
+
+---
+
+#### 1. 🧱 Repository Pattern
+
+**Importancia:**  
+Permite abstraer el acceso a la base de datos, desacoplando la lógica de negocio del almacenamiento de datos.
+
+**Aplicación en el proyecto:**  
+Cada microservicio implementa su propio repositorio para acceder a sus datos. Por ejemplo, `ReservationRepository` encapsula la lógica de acceso a la tabla de reservas y permite consultarlas, crearlas o cancelarlas sin exponer directamente el contexto de la base de datos al resto del sistema.
+
+---
+
+#### 2. 🧠 Service Layer Pattern
+
+**Importancia:**  
+Organiza la lógica de negocio en una capa intermedia entre los controladores (API) y los repositorios. Esto permite centralizar las reglas de negocio, evitar duplicación de lógica y promover la reutilización.
+
+**Aplicación en el proyecto:**  
+Servicios como `UserService`, `ReservationService` y `ActivityService` manejan la lógica principal de cada dominio (validaciones, reglas, transacciones) y son invocados por los controladores expuestos por cada microservicio.
+
+---
+
+#### 3. 📬 Event-Driven Architecture (Publisher/Subscriber)
+
+**Importancia:**  
+Permite la comunicación entre microservicios de forma desacoplada, basada en eventos. Mejora la escalabilidad y la resiliencia, ya que los servicios no se invocan directamente entre sí.
+
+**Aplicación en el proyecto:**  
+Cuando se confirma una reserva, el `ReservationService` publica un evento (`ReservationConfirmed`) en RabbitMQ. Este evento es consumido por el `NotificationService`, que envía el correo o notificación correspondiente al usuario, sin que exista una llamada directa entre servicios.
+
+---
+
+
 
 ---
 
@@ -120,6 +153,9 @@ Representan los flujos clave:
 ### Desventajas
 - Mayor complejidad operativa
 - Costos iniciales más altos
+- Deploys por separados
+- Necesidad de Monitoreo distribuido
+- Resilencia y tolerancia a fallos
 
 ---
 
