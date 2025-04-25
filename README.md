@@ -120,7 +120,6 @@ Representan los flujos clave:
 ### Desventajas
 - Mayor complejidad operativa
 - Costos iniciales más altos
-- Requiere gobernanza de microservicios y observabilidad
 
 ---
 
@@ -138,6 +137,7 @@ Representan los flujos clave:
   - Código compartido (iOS/Android)
   - Buen rendimiento
   - Acceso nativo a funcionalidades del dispositivo
+  - Mismo stack que el Backend
 
 ---
 
